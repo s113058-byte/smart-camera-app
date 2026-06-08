@@ -1,6 +1,3 @@
-import ctypes
-ctypes.CDLL("libGL.so.1", mode=ctypes.RTLD_GLOBAL)
-
 import streamlit as st
 import cv2
 import numpy as np
